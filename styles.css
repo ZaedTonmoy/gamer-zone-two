@@ -445,6 +445,34 @@
   .banner-img{
      margin-left: 50px;
   }
+
+   /* main section started */
+ /* Section:1 responsive */
+ .we-gamer-container{
+    flex-direction: column;
+    flex-direction: column;
+    height: auto;
+    box-shadow: none;
+    width: 578px;
+    background-color: white;
+    margin-bottom: 40px;
+  }
+  .we-writing-container {
+    text-align: center;
+  }
+
+   /* section:2- responsive */
+ .card-container{
+    height: auto;
+    padding-top: 50px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .game-card{
+    flex-direction: column;
+  }
     
    }
 

@@ -4,6 +4,25 @@
     margin: 0px;
 }
 
+ /* shared style */
+ .icon{
+    cursor: pointer;
+  }
+  .button-primary{
+    border: none;
+    color: white;
+    border-radius: 60px;
+    padding: 8px;
+    width: 95px;
+    height: 45px;
+    font-size: 13px;
+    font-weight: 500;
+    margin-right: 10px;
+    cursor: pointer;
+ }
+
+
+ 
  /* header started */
  header{
     margin-bottom: 0px;

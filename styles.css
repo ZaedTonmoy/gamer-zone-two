@@ -76,3 +76,43 @@
     width: 600px;
     height: 468px;
 }
+
+.banner-img{
+    margin-right: 150px;
+}
+
+.goat-container{
+    margin-left: 150px;
+    margin-top: 100px;
+}
+
+.banner-title{
+   font-size: 34px;
+   font-weight: 600;
+}
+.goat{
+  font-size: 65px;
+  font-weight: 800;
+  background: linear-gradient(to top, rgba(135, 88, 241, 1), rgba(249, 72, 178, 1));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  margin-bottom: 20px;
+}
+
+.banner li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: rgba(83, 76, 100, 1);
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 7px;
+  }
+  .banner-btn{
+    margin-top: 25px;
+  }
+  .pink-btn{
+    background-color: rgba(255, 63, 164, 1);
+  }

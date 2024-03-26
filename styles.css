@@ -63,3 +63,16 @@
      padding-left: 15px;
      padding-right: 15px;
  }
+
+  /* banner started */
+  .banner{
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner-writing-container{
+    background-image: url('images/group-14-2.png');
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 468px;
+}

@@ -398,4 +398,10 @@
     margin-top: 25px;
   }
 
-  
+  /* responsive started */
+@media screen  and (max-width:576px){
+    /* header started */
+    header{
+        height: auto;
+        margin-top: 50px;
+    }

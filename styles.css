@@ -521,7 +521,24 @@
     left: 430px;
   }
 
-  
+   /* footer responsive started */
+ footer{
+    width: 576px;
+  }
+  .story{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .footer-icon-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .terms{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+   
     
    }
 

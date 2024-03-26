@@ -405,3 +405,28 @@
         height: auto;
         margin-top: 50px;
     }
+
+     /* nav responsive */
+    nav{
+      flex-direction: column;
+      height: auto;
+      box-shadow: none;
+      gap: 50px;
+      width: 100vw;
+      text-align: center;
+      justify-content: center;
+      margin-left: 80px;
+      margin-bottom: 50px;
+   }
+   nav ul{
+       flex-direction: column;
+   }
+   
+   nav li{
+       text-align: center;
+       display: block;
+   }
+    
+   }
+
+   

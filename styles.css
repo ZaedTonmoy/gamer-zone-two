@@ -426,7 +426,25 @@
        text-align: center;
        display: block;
    }
+
+
+    /* banner responsive started */
+ .banner{
+    flex-direction: column-reverse;
+ }
+ .goat-container{
+   margin: 0px;
+   text-align: center;
+   margin-top: 60px;
+   margin-left: 50px;
+ }
+
+ .banner li {
+    justify-content: center;
+  }
+  .banner-img{
+     margin-left: 50px;
+  }
     
    }
 
-   

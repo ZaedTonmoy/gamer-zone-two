@@ -473,6 +473,29 @@
   .game-card{
     flex-direction: column;
   }
+
+   /* Section: 3 responsive */
+ .third-container{
+    flex-direction: column;
+    margin-left: 180px;
+    text-align: center;
+    margin-top: 60px;
+  }
+  .three-images{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .horse{
+    width: 350px;
+  }
+
+  .angela{
+    width: 150px;
+    position: relative;
+    top: -140px;
+    left: -40px;
+  }
     
    }
 

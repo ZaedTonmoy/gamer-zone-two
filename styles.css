@@ -256,3 +256,38 @@
     margin-top: 0px;
     margin-bottom: 5px;
   }
+
+
+   /* Section-3:started */
+ .third-container{
+    display: flex;
+    gap: 0px;
+    justify-content: center;
+    align-items: center;
+    text-align: right;
+    margin-left: 100px;
+  }
+  .third-pink{
+    font-size: 33px;
+    font-weight: 700;
+    margin-bottom: 3px;
+    background: linear-gradient(to top,rgb(165, 107, 223), rgb(252, 16, 158));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  .third-title{
+    font-size: 33px;
+    font-weight: 700;
+    margin-bottom: 15px;
+  }
+  .horse{
+    width: 450px;
+  }
+  .angela{
+    width: 200px;
+    position: relative;
+    top: 25px ;
+    left: 132px;
+  }

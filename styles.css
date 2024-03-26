@@ -305,4 +305,42 @@
     width: 40px;
   }
 
+  .small-badges{
+    border: none;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    height: 35px;
+    padding: 8px;
+    padding-right: 10px;
+    background-color: #fff;
+  }
+
+  .small-badges:hover{
+    border: 1px solid rgba(255, 63, 164, 1);
+    cursor: pointer;
+  }
+
+  .badge-title{
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .badge-title:hover{
+    color: rgba(255, 63, 164, 1);
+  }
+
+  .first-div{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
   
+  .second-div{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }

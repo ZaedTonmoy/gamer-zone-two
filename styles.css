@@ -166,3 +166,93 @@
   font-weight: 700;
   color: rgba(83, 76, 100, 1);
 }
+
+
+/* Section-2: card container started */
+.card-container{
+    height: 100vh;
+    padding-top: 80px;
+    margin-left: 80px;
+    margin-right: 60px;
+ }
+ .card-title{
+   text-align: center;
+   font-size: 33px;
+   font-weight: 700;
+   margin-bottom: 15px;
+ }
+ .purple-text{
+   background: linear-gradient(to top, rgba(135, 88, 241, 1), rgba(249, 72, 178, 1));
+   -webkit-background-clip: text;
+   background-clip: text;
+   color: transparent;
+ }
+
+ .card-des{
+    text-align: center;
+    margin-bottom: 35px;
+    font-size: 13px;
+    color: rgba(83, 76, 100, 1);
+    font-weight: 400;
+  }
+  .game-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+  }
+  .card{
+    width: 230px;
+    height: 320px;
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+  }
+
+  .card .card-img{
+    width: 230px;
+    margin-bottom: 15px;
+    display: block;
+    height: auto;
+    transition: filter 0.3s ease;
+  }
+  .card:hover .card-img{
+   filter: brightness(40%);
+ }
+
+ .play-button{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.1s ease;
+  }
+  .card:hover .play-button{
+   opacity: 1;
+   cursor: pointer;
+  }
+
+  .card .hover-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.1s ease;
+    color: rgb(255, 78, 172);
+    font-weight: 600;
+ }
+
+ .card:hover .hover-text{
+  opacity: 1;
+ }
+
+ .card-sub{
+    color: rgba(83, 76, 100, 1);
+    font-size: 13px;
+    font-weight: 500;
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: 5px;
+  }

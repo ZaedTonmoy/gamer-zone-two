@@ -291,3 +291,18 @@
     top: 25px ;
     left: 132px;
   }
+
+
+  /* SEction:4-started */
+.games{
+    padding-top: 70px;
+    margin-top: 20px;
+    background-color: rgba(226, 146, 187, 0.071);
+    padding-bottom: 70px;
+  }
+    
+  .games img{
+    width: 40px;
+  }
+
+  

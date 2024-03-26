@@ -3,3 +3,51 @@
     padding: 0px;
     margin: 0px;
 }
+
+ /* header started */
+ header{
+    margin-bottom: 0px;
+   }
+  
+  /* nav started */
+  nav{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      height: 85px;
+      box-shadow: 0px 2px 15px rgba(133, 4, 101, 0.107);
+      gap: 150px;
+  }
+  
+  .nav-logo{
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      cursor: pointer;
+  }
+  
+  .nav-img{
+      height: 28px;
+      width: 57px;
+  }
+  
+  nav ul{
+      display: flex;
+      gap: 20px;
+  }
+  
+  nav li{
+      list-style: none;
+      display: flex;
+      gap: 15px;
+      align-items: center;
+      font-size: 12.5px;
+      font-weight: 500;
+      color: rgba(60, 53, 79, 1);
+      cursor: pointer;
+  }
+  
+  .nav-title{
+     font-size: 30px;
+  }
+  

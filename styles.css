@@ -4,87 +4,87 @@
     margin: 0px;
 }
 
- /* shared style */
- .icon{
-    cursor: pointer;
-  }
-  .button-primary{
-    border: none;
-    color: white;
-    border-radius: 60px;
-    padding: 8px;
-    width: 95px;
-    height: 45px;
-    font-size: 13px;
-    font-weight: 500;
-    margin-right: 10px;
-    cursor: pointer;
- }
+/* shared style */
+.icon{
+  cursor: pointer;
+}
+
+.button-primary{
+  border: none;
+  color: white;
+  border-radius: 60px;
+  padding: 8px;
+  width: 95px;
+  height: 45px;
+  font-size: 13px;
+  font-weight: 500;
+  margin-right: 10px;
+  cursor: pointer;
+}
 
 
- 
- /* header started */
+/* header started */
  header{
-    margin-bottom: 0px;
-   }
-  
-  /* nav started */
-  nav{
-      display: flex;
-      justify-content: space-around;
-      align-items: center;
-      height: 85px;
-      box-shadow: 0px 2px 15px rgba(133, 4, 101, 0.107);
-      gap: 150px;
-  }
-  
-  .nav-logo{
-      display: flex;
-      align-items: center;
-      gap: 14px;
-      cursor: pointer;
-  }
-  
-  .nav-img{
-      height: 28px;
-      width: 57px;
-  }
-  
-  nav ul{
-      display: flex;
-      gap: 20px;
-  }
-  
-  nav li{
-      list-style: none;
-      display: flex;
-      gap: 15px;
-      align-items: center;
-      font-size: 12.5px;
-      font-weight: 500;
-      color: rgba(60, 53, 79, 1);
-      cursor: pointer;
-  }
-  
-  .nav-title{
-     font-size: 30px;
-  }
-  
-  .pink-g{
-    color: rgba(255, 66, 165, 1);
- }
- 
- .follow{
-     background-color: rgba(11, 2, 35, 0.1);
-     border-radius: 5px;
-     height: 39px;
-     width: auto;
-     padding-left: 15px;
-     padding-right: 15px;
+  margin-bottom: 0px;
  }
 
-  /* banner started */
-  .banner{
+/* nav started */
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 85px;
+    box-shadow: 0px 2px 15px rgba(133, 4, 101, 0.107);
+    gap: 150px;
+}
+
+.nav-logo{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    cursor: pointer;
+}
+
+.nav-img{
+    height: 28px;
+    width: 57px;
+}
+
+nav ul{
+    display: flex;
+    gap: 20px;
+}
+
+nav li{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    font-size: 12.5px;
+    font-weight: 500;
+    color: rgba(60, 53, 79, 1);
+    cursor: pointer;
+}
+
+.nav-title{
+   font-size: 30px;
+}
+
+.pink-g{
+   color: rgba(255, 66, 165, 1);
+}
+
+.follow{
+    background-color: rgba(11, 2, 35, 0.1);
+    border-radius: 5px;
+    height: 39px;
+    width: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* banner started */
+.banner{
     display: flex;
     justify-content: space-between;
 }
@@ -109,6 +109,7 @@
    font-size: 34px;
    font-weight: 600;
 }
+
 .goat{
   font-size: 65px;
   font-weight: 800;
@@ -120,30 +121,32 @@
 }
 
 .banner li {
-    list-style: none;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    color: rgba(83, 76, 100, 1);
-    font-size: 14px;
-    font-weight: 500;
-    margin-bottom: 7px;
-  }
-  .banner-btn{
-    margin-top: 25px;
-  }
-  .pink-btn{
-    background-color: rgba(255, 63, 164, 1);
-  }
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: rgba(83, 76, 100, 1);
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 7px;
+}
 
-  .blue-btn{
-    background-color: rgba(78, 197, 247, 1);
-    width: 110px;
-  }
+.banner-btn{
+  margin-top: 25px;
+}
+
+.pink-btn{
+  background-color: rgba(255, 63, 164, 1);
+}
+
+.blue-btn{
+  background-color: rgba(78, 197, 247, 1);
+  width: 110px;
+}
 
 
-   /* Section-1: we're gamer started */
- .we-gamer-container{
+/* Section-1: we're gamer started */
+.we-gamer-container{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -153,9 +156,11 @@
     margin-top: 0px;
     box-shadow: 0px -5px 10px rgba(197, 64, 153, 0.21);
 }
+
 .we-img{
   width: 550px;
 }
+
 .we-writing-container{
    text-align: right;
 }
@@ -164,214 +169,229 @@
   font-size: 32px;
   margin-bottom: 12px;
  }
+
 .we-des{
   font-size: 12px;
   color: rgba(83, 76, 100, 1);
   font-weight: 400;
   margin-bottom: 5px;
 }
+
 .know-btn{
   width: 140px;
   margin-top:    20px;
   margin-bottom: 20px;
 }
+
 .quote-des{
   font-size: 16px;
   font-weight: 500;
   color: rgba(83, 76, 100, 1);
 }
+
 .quote{
   font-size: 21px;
   font-weight: 700;
   color: rgba(83, 76, 100, 1);
 }
 
-
 /* Section-2: card container started */
 .card-container{
-    height: 100vh;
-    padding-top: 80px;
-    margin-left: 80px;
-    margin-right: 60px;
- }
- .card-title{
-   text-align: center;
-   font-size: 33px;
-   font-weight: 700;
-   margin-bottom: 15px;
- }
- .purple-text{
-   background: linear-gradient(to top, rgba(135, 88, 241, 1), rgba(249, 72, 178, 1));
-   -webkit-background-clip: text;
-   background-clip: text;
-   color: transparent;
- }
+   height: 100vh;
+   padding-top: 80px;
+   margin-left: 80px;
+   margin-right: 60px;
+}
 
- .card-des{
-    text-align: center;
-    margin-bottom: 35px;
-    font-size: 13px;
-    color: rgba(83, 76, 100, 1);
-    font-weight: 400;
-  }
-  .game-card{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 18px;
-  }
-  .card{
-    width: 230px;
-    height: 320px;
-    cursor: pointer;
-    position: relative;
-    display: inline-block;
-  }
+.card-title{
+  text-align: center;
+  font-size: 33px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
 
-  .card .card-img{
-    width: 230px;
-    margin-bottom: 15px;
-    display: block;
-    height: auto;
-    transition: filter 0.3s ease;
-  }
-  .card:hover .card-img{
-   filter: brightness(40%);
- }
+.purple-text{
+  background: linear-gradient(to top, rgba(135, 88, 241, 1), rgba(249, 72, 178, 1));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
 
- .play-button{
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    opacity: 0;
-    transition: opacity 0.1s ease;
-  }
-  .card:hover .play-button{
-   opacity: 1;
-   cursor: pointer;
-  }
+.card-des{
+  text-align: center;
+  margin-bottom: 35px;
+  font-size: 13px;
+  color: rgba(83, 76, 100, 1);
+  font-weight: 400;
+}
 
-  .card .hover-text{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    opacity: 0;
-    transition: opacity 0.1s ease;
-    color: rgb(255, 78, 172);
-    font-weight: 600;
- }
+.game-card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 18px;
+}
 
- .card:hover .hover-text{
-  opacity: 1;
- }
+.card{
+  width: 230px;
+  height: 320px;
+  cursor: pointer;
+  position: relative;
+  display: inline-block;
+}
 
- .card-sub{
-    color: rgba(83, 76, 100, 1);
-    font-size: 13px;
-    font-weight: 500;
-    text-align: left;
-    margin-top: 0px;
-    margin-bottom: 5px;
-  }
+.card .card-img{
+  width: 230px;
+  margin-bottom: 15px;
+  display: block;
+  height: auto;
+  transition: filter 0.3s ease;
+}
 
+.card:hover .card-img{
+ filter: brightness(40%);
+}
 
-   /* Section-3:started */
- .third-container{
-    display: flex;
-    gap: 0px;
-    justify-content: center;
-    align-items: center;
-    text-align: right;
-    margin-left: 100px;
-  }
-  .third-pink{
-    font-size: 33px;
-    font-weight: 700;
-    margin-bottom: 3px;
-    background: linear-gradient(to top,rgb(165, 107, 223), rgb(252, 16, 158));
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
-  }
+.play-button{
+ position: absolute;
+ top: 40%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ opacity: 0;
+ transition: opacity 0.1s ease;
+}
+.card:hover .play-button{
+opacity: 1;
+cursor: pointer;
+}
 
-  .third-title{
-    font-size: 33px;
-    font-weight: 700;
-    margin-bottom: 15px;
-  }
-  .horse{
-    width: 450px;
-  }
-  .angela{
-    width: 200px;
-    position: relative;
-    top: 25px ;
-    left: 132px;
-  }
+.card .hover-text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 0.1s ease;
+  color: rgb(255, 78, 172);
+  font-weight: 600;
+}
+
+.card:hover .hover-text{
+opacity: 1;
+}
+
+.card-sub{
+  color: rgba(83, 76, 100, 1);
+  font-size: 13px;
+  font-weight: 500;
+  text-align: left;
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
 
 
-  /* SEction:4-started */
+/* Section-3:started */
+.third-container{
+  display: flex;
+  gap: 0px;
+  justify-content: center;
+  align-items: center;
+  text-align: right;
+  margin-left: 100px;
+}
+
+.third-pink{
+  font-size: 33px;
+  font-weight: 700;
+  margin-bottom: 3px;
+  background: linear-gradient(to top,rgb(165, 107, 223), rgb(252, 16, 158));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.third-title{
+  font-size: 33px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.horse{
+  width: 450px;
+}
+
+.angela{
+  width: 200px;
+  position: relative;
+  top: 25px ;
+  left: 132px;
+}
+
+
+/* SEction:4-started */
 .games{
-    padding-top: 70px;
-    margin-top: 20px;
-    background-color: rgba(226, 146, 187, 0.071);
-    padding-bottom: 70px;
-  }
-    
-  .games img{
-    width: 40px;
-  }
+  padding-top: 70px;
+  margin-top: 20px;
+  background-color: rgba(226, 146, 187, 0.071);
+  padding-bottom: 70px;
+}
 
-  .small-badges{
-    border: none;
-    border-radius: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    height: 35px;
-    padding: 8px;
-    padding-right: 10px;
-    background-color: #fff;
-  }
+.games img{
+  width: 40px;
+}
 
-  .small-badges:hover{
-    border: 1px solid rgba(255, 63, 164, 1);
-    cursor: pointer;
-  }
+.small-badges{
+  border: none;
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  height: 35px;
+  padding: 8px;
+  padding-right: 10px;
+  background-color: #fff;
+}
 
-  .badge-title{
-    font-size: 14px;
-    font-weight: 600;
-  }
+.small-badges:hover{
+  border: 1px solid rgba(255, 63, 164, 1);
+  cursor: pointer;
+}
 
-  .badge-title:hover{
-    color: rgba(255, 63, 164, 1);
-  }
+.badge-title{
+  font-size: 14px;
+  font-weight: 600;
+}
 
-  .first-div{
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-    margin-bottom: 20px;
-  }
+.badge-title:hover{
+  color: rgba(255, 63, 164, 1);
 
-  .second-div{
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-  }
+}
 
-   /* footer started */
-   footer{
+.first-div{
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.second-div{
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+
+
+/* footer started */
+  footer{
     background-color: rgba(11, 2, 35, 1);
     color: #fff;
     padding-top: 70px;
     text-align: center;
     height: 67vh;
   }
+
  .footer-logo{
   justify-content: center;
   margin-bottom: 0px;
@@ -396,10 +416,11 @@
     gap: 30px;
     margin-bottom: 50px;
   }
+
   .footer-icon{
     cursor: pointer;
   }
-
+ 
   .terms{
     font-weight: 400;
     display: flex;
@@ -417,16 +438,18 @@
     margin-top: 25px;
   }
 
-  /* responsive started */
-@media screen  and (max-width:576px){
-    /* header started */
-    header{
-        height: auto;
-        margin-top: 50px;
-    }
 
-     /* nav responsive */
-    nav{
+
+/* responsive started */
+@media screen  and (max-width:576px){
+  /* header started */
+  header{
+      height: auto;
+      margin-top: 50px;
+  }
+
+  /* nav responsive */
+  nav{
       flex-direction: column;
       height: auto;
       box-shadow: none;
@@ -436,38 +459,44 @@
       justify-content: center;
       margin-left: 80px;
       margin-bottom: 50px;
-   }
-   nav ul{
-       flex-direction: column;
-   }
+  }
+
+  nav ul{
+      flex-direction: column;
+  }
+
+  nav li{
+      text-align: center;
+      display: block;
+  }
    
-   nav li{
-       text-align: center;
-       display: block;
-   }
 
 
-    /* banner responsive started */
- .banner{
-    flex-direction: column-reverse;
- }
- .goat-container{
-   margin: 0px;
-   text-align: center;
-   margin-top: 60px;
-   margin-left: 50px;
- }
+  /* banner responsive started */
+  .banner{
+     flex-direction: column-reverse;
+  }
 
- .banner li {
+  .goat-container{
+    margin: 0px;
+    text-align: center;
+    margin-top: 60px;
+    margin-left: 50px;
+  }
+
+  .banner li {
     justify-content: center;
   }
+
   .banner-img{
      margin-left: 50px;
   }
 
-   /* main section started */
- /* Section:1 responsive */
- .we-gamer-container{
+
+  
+  /* main section started */
+  /* Section:1 responsive */
+  .we-gamer-container{
     flex-direction: column;
     flex-direction: column;
     height: auto;
@@ -480,8 +509,10 @@
     text-align: center;
   }
 
-   /* section:2- responsive */
- .card-container{
+
+
+  /* section:2- responsive */
+  .card-container{
     height: auto;
     padding-top: 50px;
     justify-content: center;
@@ -489,22 +520,27 @@
     flex-direction: column;
     width: 100%;
   }
+
   .game-card{
     flex-direction: column;
   }
 
-   /* Section: 3 responsive */
- .third-container{
+
+
+  /* Section: 3 responsive */
+  .third-container{
     flex-direction: column;
     margin-left: 180px;
     text-align: center;
     margin-top: 60px;
   }
+
   .three-images{
     margin-top: 40px;
     display: flex;
     flex-direction: column-reverse;
   }
+
   .horse{
     width: 350px;
   }
@@ -516,15 +552,19 @@
     left: -40px;
   }
 
+
+
   /* section:4 responsive */
-.games{
+  .games{
     background-color: white;
     /* margin-left: 280px; */
     width: 576px;
   }
+
   .small-badges{
     width: 200px;
   }
+
   .first-div{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -534,16 +574,19 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
   }
+
   .strategy{
     position: relative;
     top: -130px;
     left: 430px;
   }
 
-   /* footer responsive started */
- footer{
+
+  /* footer responsive started */
+  footer{
     width: 576px;
   }
+
   .story{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -553,11 +596,9 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
   }
+
   .terms{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
-   
-    
-   }
-
+}

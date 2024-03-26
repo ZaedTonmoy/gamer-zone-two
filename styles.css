@@ -116,3 +116,8 @@
   .pink-btn{
     background-color: rgba(255, 63, 164, 1);
   }
+
+  .blue-btn{
+    background-color: rgba(78, 197, 247, 1);
+    width: 110px;
+  }
